@@ -1,0 +1,86 @@
+<!doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <title>AJAX</title>
+    <meta charset="utf-8" />
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            AJAX com PHP
+        </h1>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="txtCep">CEP</label>
+                    <input type="text" class="form-control" id="txtCep" placeholder="CEP">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label for="txtLocalidade">Cidade</label>
+                    <input type="email" class="form-control" id="txtLocalidade" placeholder="Cidade">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label for="txtEstado">UF</label>
+                    <input type="text" class="form-control" id="txtEstado" placeholder="Estado">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="txtLogradouro">Logradouro</label>
+                    <input type="text" class="form-control" id="txtLogradouro" placeholder="Logradouro">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group">
+                    <label for="txtBairro">Bairro</label>
+                    <input type="text" class="form-control" id="txtBairro" placeholder="Bairro">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <button id="btnCadastrar" class="btn btn-info">Cadastrar</button>
+                    <span id=spResultado></span>
+                </div>
+            </div>
+        </div>
+
+        <!--CONSULTA
+        <div class="card">
+            <div class="card-header">
+                <button id="btnConsultar" class="btn btn-success">Consultar</button>
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0" id=bqResultado></blockquote>
+            </div>
+        </div>
+        -->
+    </div>
+</body>
+
+</html>
